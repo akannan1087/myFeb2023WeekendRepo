@@ -1,6 +1,5 @@
 <html>
 <body>
-	<h2> Welcome to CI - We are integrating Nexus and Slack!!! Automation is really fun!!</h2>
-	<h2> Welcome to CI - We are integrating Nexus and Slack!!! Automation is really fun!!</h2>
+	<h2> Welcome to our first pipeline job in Jenkins - We are Implementing Scripted Pipeline to achieve CICD !!</h2>
 </body>
 </html>
