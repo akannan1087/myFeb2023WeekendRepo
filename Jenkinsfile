@@ -7,13 +7,7 @@ pipeline {
         maven "Maven3"
     }
     
-    stages {
-        stage('Checkout') {
-            steps {
-              checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'bff21790-23a7-44e7-9b03-9fa37c009169', url: 'https://github.com/akannan1087/myFeb2023WeekendRepo']])  
-            }
-        }
-        
+    stages {        
         stage ("Build") {
             steps {
                 sh "mvn clean install -f MyWebApp/pom.xml"
