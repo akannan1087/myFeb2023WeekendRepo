@@ -5,7 +5,7 @@
           <meta content="text/html; charset=utf-8" />
     </head> 
 	<body>
-	<h2> We are fixing issues found by Sonarqube during quality gate run in Scripted Pipeline !!</h2>
+	<h2> We are migrating Java Web App from GitHub into Azure Cloud using Azure Pipeline !!</h2>
 
 	
 </body>
